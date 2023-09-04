@@ -49,9 +49,7 @@ offerfruit4 = input("Enter the fourth fruit you are offering: ").lower()
 
 offertotal = price_of(offerfruit1) + price_of(offerfruit2) + price_of(offerfruit3) + price_of(offerfruit4)
 
-print(offerfruit1, price_of(offerfruit1), "+", offerfruit2, price_of(offerfruit2), "+", offerfruit3,
-      price_of(offerfruit3), "+", offerfruit4, price_of(offerfruit4), "=",
-      price_of(offerfruit1) + price_of(offerfruit2) + price_of(offerfruit3) + price_of(offerfruit4))
+print(offertotal)
 
 receivefruit1 = input("Enter the first fruit you are receiving: ").lower()
 receivefruit2 = input("Enter the second fruit you are receiving: ").lower()
@@ -60,6 +58,11 @@ receivefruit4 = input("Enter the fourth fruit you are receiving: ").lower()
 
 receivetotal = price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4)
 
-print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3,
-      price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=",
-      price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
+print(receivetotal)
+
+if offertotal < receivetotal:
+    print("W trade")
+if offertotal = receivetotal:
+    print("fair trade")
+if offertotal > receivetotal:
+    print("L trade")
