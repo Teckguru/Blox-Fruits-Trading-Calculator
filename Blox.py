@@ -35,8 +35,7 @@ control = 2600000
 spirit = 3400000
 dragon = 4100000
 leopard = 7800000
-lepard = 7800000  
-leo = 7800000
+
 
 
 offerfruit1 = input("Enter the first fruit you are offering: ")
@@ -44,9 +43,7 @@ offerfruit2 = input("Enter the second fruit you are offering: ")
 offerfruit3 = input("Enter the third fruit you are offering: ")
 offerfruit4 = input("Enter the fourth fruit you are offering: ")
 
-offertotal = ((offerfruit1) + (offerfruit2) + (offerfruit3) + (offerfruit4))
-
-print(offertotal)
+print((offerfruit1) + (offerfruit2) + (offerfruit3) + (offerfruit4))
 
 
 receivefruit1 = input("Enter the first fruit you are receiving: ")
@@ -54,6 +51,4 @@ receivefruit2 = input("Enter the second fruit you are receiving: ")
 receivefruit3 = input("Enter the third fruit you are receiving: ")
 receivefruit4 = input("Enter the fourth fruit you are receiving: ")
 
-receivetotal = ((receivefruit1) + (receivefruit2) + (receivefruit3) + (receivefruit4))
-
-    print(receivetotal)
+print((receivefruit1) + (receivefruit2) + (receivefruit3) + (receivefruit4))
