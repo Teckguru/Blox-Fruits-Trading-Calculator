@@ -1,3 +1,7 @@
+X = 2
+print(x)
+
+
 no = 0 
 kilo = 7500 
 spin = 10000 
