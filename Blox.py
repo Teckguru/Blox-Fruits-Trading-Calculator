@@ -60,6 +60,4 @@ receivefruit4 = input("Enter the fourth fruit you are receiving: ").lower()
 
 receivetotal = price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4)
 
-    print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3,
-          price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=",
-          price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
+    print(receivetotal)
