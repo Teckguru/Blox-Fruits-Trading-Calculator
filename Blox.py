@@ -1,4 +1,4 @@
-# made by lhinger, Discord: ceo of jews#1948
+# made by lhinger, Discord: ceo of jews#1948, revised by Teckguru
 
 def price_of(fruit_name: str) -> int: return name_to_price[fruit_name]
 
@@ -60,18 +60,6 @@ receivefruit4 = input("Enter the fourth fruit you are receiving: ").lower()
 
 receivetotal = price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4)
 
-if offertotal < (40 / 100 * receivetotal):
-    print("\033[1;31;40m Offer must be more than 40% of receiving value. \n")
-else:
     print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3,
           price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=",
           price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
-
-if offertotal >= (40/100 * receivetotal) and receivetotal >= (110/100 * offertotal):
-    print("\033[1;32;40m W trade :) \n")
-elif offertotal >= (40/100 * receivetotal) and (90 / 100 * offertotal) < receivetotal < (110 / 100 * offertotal):
-    print("\033[1;33;40m Fair trade")
-elif offertotal >= (40/100 * receivetotal) and receivetotal < (90/100 * offertotal):
-    print("\033[1;31;40m L trade :( \n")
-
-print("that's all")
