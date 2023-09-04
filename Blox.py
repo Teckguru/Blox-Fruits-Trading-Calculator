@@ -1,8 +1,5 @@
-X = 2
-print(x)
 
-
-no = 0 
+"no" = 0 
 kilo = 7500 
 spin = 10000 
 chop = 100000 
