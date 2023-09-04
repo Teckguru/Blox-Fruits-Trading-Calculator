@@ -73,3 +73,5 @@ elif offertotal >= (40/100 * receivetotal) and (90 / 100 * offertotal) < receive
     print("\033[1;33;40m Fair trade")
 elif offertotal >= (40/100 * receivetotal) and receivetotal < (90/100 * offertotal):
     print("\033[1;31;40m L trade :( \n")
+
+print("that's all")
