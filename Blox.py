@@ -63,17 +63,3 @@ receivetotal = price_of(receivefruit1) + price_of(receivefruit2) + price_of(rece
 print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3,
       price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=",
       price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
-
-if offertotal < (40 / 100 * receivetotal):
-    print("\033[1;31;40m Offer must be more than 40% of receiving value. \n")
-else:
-    print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3,
-          price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=",
-          price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
-
-if offertotal >= (40/100 * receivetotal) and receivetotal >= (110/100 * offertotal):
-    print("W trade")
-elif offertotal >= (40/100 * receivetotal) and (90 / 100 * offertotal) < receivetotal < (110 / 100 * offertotal):
-    print("Fair trade")
-elif offertotal >= (40/100 * receivetotal) and receivetotal < (90/100 * offertotal):
-    print("L trade")
