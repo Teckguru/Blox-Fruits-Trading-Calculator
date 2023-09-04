@@ -39,20 +39,20 @@ lepard = 7800000
 leo = 7800000
 
 
-offerfruit1 = input("Enter the first fruit you are offering: ").lower()
-offerfruit2 = input("Enter the second fruit you are offering: ").lower()
-offerfruit3 = input("Enter the third fruit you are offering: ").lower()
-offerfruit4 = input("Enter the fourth fruit you are offering: ").lower()
+offerfruit1 = input("Enter the first fruit you are offering: ")
+offerfruit2 = input("Enter the second fruit you are offering: ")
+offerfruit3 = input("Enter the third fruit you are offering: ")
+offerfruit4 = input("Enter the fourth fruit you are offering: ")
 
 offertotal = ((offerfruit1) + (offerfruit2) + (offerfruit3) + (offerfruit4))
 
 print(offertotal)
 
 
-receivefruit1 = input("Enter the first fruit you are receiving: ").lower()
-receivefruit2 = input("Enter the second fruit you are receiving: ").lower()
-receivefruit3 = input("Enter the third fruit you are receiving: ").lower()
-receivefruit4 = input("Enter the fourth fruit you are receiving: ").lower()
+receivefruit1 = input("Enter the first fruit you are receiving: ")
+receivefruit2 = input("Enter the second fruit you are receiving: ")
+receivefruit3 = input("Enter the third fruit you are receiving: ")
+receivefruit4 = input("Enter the fourth fruit you are receiving: ")
 
 receivetotal = ((receivefruit1) + (receivefruit2) + (receivefruit3) + (receivefruit4))
 
